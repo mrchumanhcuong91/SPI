@@ -18,7 +18,7 @@ void SPI_send(uint8_t address, uint8_t data);
 uint8_t SPI_read(uint8_t address);
 void Sort_Signed(int16_t A[], uint8_t L);       // Bubble sort min to max, input: Array/Length
 float gToDegrees(float V, float H);             // output: degrees between two planes, input: Vertical/Horizontal force
-
+//chu manh cuong fig bug SPI
 
 int main(void)
 {
